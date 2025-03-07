@@ -65,20 +65,16 @@
     </header>
     
     <main class="game-container">
-        <section class="options">
-            <button id="rock">Rock ✊</button>
-            <button id="paper">Paper ✋</button>
-            <button id="scissors">Scissors ✌</button>
-        </section>
-        
-        <section class="results">
-            <h2>Game Results</h2>
-            <div id="result-text">Choose an option to start the game!</div>
-            <div id="choices">
-                <p>Your choice: <span id="user-choice">-</span></p>
-                <p>Computer's choice: <span id="computer-choice">-</span></p>
-            </div>
-        </section>
+        <div class="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div id="results">
+            <p id="roundResult"></p>
+            <p id="score"></p>
+            <p id="winner"></p>
+        </div>
         
         <section class="score">
             <div>
